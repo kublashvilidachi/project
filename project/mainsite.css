@@ -1,0 +1,170 @@
+.background{
+    background: url(images/Audi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+#MyBtn{
+    width: 150px;
+    height: 65px;
+    background: white;
+    border-radius: 25px;
+    margin: 28px 20px 28px 0px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.3s;
+}
+#MyBtn:hover{
+    background: black;
+    color: white;
+}
+#MyBtn2{
+    box-sizing: border-box;
+    width: 243px;
+    height: 65px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;    
+    transition: 0.3s;
+}
+#MyBtn2:hover{
+    background: white;
+    color: black;
+}
+.line{
+    width: 0px;
+    height: 220px;
+    border: 1px dashed rgba(34, 34, 34, 0.5);
+    margin: 20px 0px;
+}
+.monacemebi{
+    display: flex;
+    justify-content: space-evenly;
+}
+.monacemi1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#photos{
+    background: url(images/car1.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    transition: background-image 0.5s ease-in-out;
+}
+.arrow{
+    display: flex;
+    background: rgba(0, 0, 0, 0.21);
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: xxx-large;
+    cursor: pointer;
+    user-select: none;
+}
+.ellipses{
+    display: flex;
+    justify-content: center;
+    padding: 580px 0px 0px 0px;
+    width: fit-content;
+}
+#ellipse1{
+    padding: 0px 5px 0px 5px;
+    background: rgba(0, 0, 0, 0.21);
+}
+#ellipse2{
+    padding: 0px 5px 0px 5px;
+    background: rgba(0, 0, 0, 0.21);
+}
+#ellipse3{
+    padding: 0px 5px 0px 5px;
+    background: rgba(0, 0, 0, 0.21);
+}
+#ellipse4{
+    padding: 0px 5px 0px 5px;
+    background: rgba(0, 0, 0, 0.21);
+}
+#ellipse5{
+    padding: 0px 5px 0px 5px;
+    background: rgba(0, 0, 0, 0.21);
+}
+
+.My-btn1{
+    width: 201px;
+    height: 80px;
+    background: #000000;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px 19.5px 0px 0px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.My-btn1:hover{
+    color: black;
+    background: white;
+    border: solid;
+}
+.My-btn2{
+    width: 201px;
+    height: 80px;
+    background: #000000;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px 0px 0px 19.5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.My-btn2:hover{
+    color: black;
+    background: white;
+    border: solid;
+}
+.Mytext{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    letter-spacing: -0.204545px;
+
+    color: #1E2833;
+
+}
